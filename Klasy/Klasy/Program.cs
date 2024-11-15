@@ -19,6 +19,10 @@ namespace Klasy
 
             Wykładowca.Spoznienie();
 
+            Student[] WSRR = { Wykładowca, Antek };
+            //Człowiek[] WSRR = { Wykładowca, Antek };
+
+
             Console.ReadLine();
         }
     }
