@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\Klasy\Klasy\bin\Debug\Klasy.exe.config
+C:\Users\abelik\source\repos\Klasy\Klasy\bin\Debug\Klasy.exe
+C:\Users\abelik\source\repos\Klasy\Klasy\bin\Debug\Klasy.pdb
+C:\Users\abelik\source\repos\Klasy\Klasy\obj\Debug\Klasy.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\Klasy\Klasy\obj\Debug\Klasy.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\Klasy\Klasy\obj\Debug\Klasy.exe
+C:\Users\abelik\source\repos\Klasy\Klasy\obj\Debug\Klasy.pdb
