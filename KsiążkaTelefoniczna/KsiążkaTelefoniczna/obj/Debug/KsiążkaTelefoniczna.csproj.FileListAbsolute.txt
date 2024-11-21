@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\KsiążkaTelefoniczna\KsiążkaTelefoniczna\bin\Debug\KsiążkaTelefoniczna.exe.config
+C:\Users\abelik\source\repos\KsiążkaTelefoniczna\KsiążkaTelefoniczna\bin\Debug\KsiążkaTelefoniczna.exe
+C:\Users\abelik\source\repos\KsiążkaTelefoniczna\KsiążkaTelefoniczna\bin\Debug\KsiążkaTelefoniczna.pdb
+C:\Users\abelik\source\repos\KsiążkaTelefoniczna\KsiążkaTelefoniczna\obj\Debug\KsiążkaTelefoniczna.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\KsiążkaTelefoniczna\KsiążkaTelefoniczna\obj\Debug\KsiążkaTelefoniczna.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\KsiążkaTelefoniczna\KsiążkaTelefoniczna\obj\Debug\KsiążkaTelefoniczna.exe
+C:\Users\abelik\source\repos\KsiążkaTelefoniczna\KsiążkaTelefoniczna\obj\Debug\KsiążkaTelefoniczna.pdb
