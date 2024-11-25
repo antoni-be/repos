@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\Polimorfizm\Polimorfizm\bin\Debug\Polimorfizm.exe.config
+C:\Users\abelik\source\repos\Polimorfizm\Polimorfizm\bin\Debug\Polimorfizm.exe
+C:\Users\abelik\source\repos\Polimorfizm\Polimorfizm\bin\Debug\Polimorfizm.pdb
+C:\Users\abelik\source\repos\Polimorfizm\Polimorfizm\obj\Debug\Polimorfizm.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\Polimorfizm\Polimorfizm\obj\Debug\Polimorfizm.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\Polimorfizm\Polimorfizm\obj\Debug\Polimorfizm.exe
+C:\Users\abelik\source\repos\Polimorfizm\Polimorfizm\obj\Debug\Polimorfizm.pdb
