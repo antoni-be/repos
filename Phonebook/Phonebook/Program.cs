@@ -28,10 +28,11 @@ namespace Phonebook
 
         static void Main(string[] args)
         {
+            //tworzę nowy obiekt klasy książkaTelefoniczna i dodaje przykładowe kontakty
             KsiazkaTelefoniczna ksiazkaTelefoniczna = new KsiazkaTelefoniczna();
-            ksiazkaTelefoniczna.DodajKontakt(new Kontakt(1, "Laura"));
-            ksiazkaTelefoniczna.DodajKontakt(new Kontakt(123456789, "Gosia"));
-            ksiazkaTelefoniczna.DodajKontakt(new Kontakt(987654321, "Kasia"));
+            ksiazkaTelefoniczna.DodajKontakt(new Kontakt(123456789, "Piotrek"));
+            ksiazkaTelefoniczna.DodajKontakt(new Kontakt(439234694, "Rafał"));
+            ksiazkaTelefoniczna.DodajKontakt(new Kontakt(423529291, "Marysia"));
 
             Console.WriteLine("Witaj w Książce telefonicznej!");
             bool ProgramStatus = true;
@@ -65,9 +66,16 @@ namespace Phonebook
                     case "2":
                         Console.Write("Podaj numer telefonu, który chcesz wyszukać: ");
                         input = Console.ReadLine();
-                        ksiazkaTelefoniczna.WyswietlKontakt(Convert.ToInt32(input));
-                        ReadAndClear("Wciśnij ENTER aby wrócić do menu...");
-                        break;
+                        try
+                        {
+                            ksiazkaTelefoniczna.WyswietlKontakt(Convert.ToInt32(input));
+                            ReadAndClear("Wciśnij ENTER aby wrócić do menu...");
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine($"Niepowodzenie: {e.Message}");
+                        }
+                         break;
 
                     case "3":
                         Console.Write("Podaj nazwę kontaktu, który chcesz wyszukać: ");
@@ -89,6 +97,7 @@ namespace Phonebook
 
                     default:
                         Console.WriteLine("Nieprawidłowy wybór, spróbuj ponownie.");
+                        Console.WriteLine();
                         break;
                 }
             }
