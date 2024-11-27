@@ -45,7 +45,7 @@ public class KsiazkaTelefoniczna
     }
     public void WyswietlKontakt(string nazwaKontaktu)
     {
-        var kontakt = listaKontakty.FirstOrDefault(w => w.NazwaKontaktu.ToLower() == nazwaKontaktu.ToLower());
+        var kontakt = listaKontakty.FirstOrDefault(w => w.NazwaKontaktu.ToLower.Contains(nazwaKontaktu.ToLower,StringComparasion) == nazwaKontaktu.ToLower());
         if (kontakt == null)
         {
             Console.WriteLine("Nie odnaleziono kontaktu.");
