@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\Delegaci\Delegaci\bin\Debug\Delegaci.exe.config
+C:\Users\abelik\source\repos\Delegaci\Delegaci\bin\Debug\Delegaci.exe
+C:\Users\abelik\source\repos\Delegaci\Delegaci\bin\Debug\Delegaci.pdb
+C:\Users\abelik\source\repos\Delegaci\Delegaci\obj\Debug\Delegaci.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\Delegaci\Delegaci\obj\Debug\Delegaci.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\Delegaci\Delegaci\obj\Debug\Delegaci.exe
+C:\Users\abelik\source\repos\Delegaci\Delegaci\obj\Debug\Delegaci.pdb
