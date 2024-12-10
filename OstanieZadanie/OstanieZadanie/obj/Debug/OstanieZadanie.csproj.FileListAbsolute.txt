@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\OstanieZadanie\OstanieZadanie\bin\Debug\OstanieZadanie.exe.config
+C:\Users\abelik\source\repos\OstanieZadanie\OstanieZadanie\bin\Debug\OstanieZadanie.exe
+C:\Users\abelik\source\repos\OstanieZadanie\OstanieZadanie\bin\Debug\OstanieZadanie.pdb
+C:\Users\abelik\source\repos\OstanieZadanie\OstanieZadanie\obj\Debug\OstanieZadanie.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\OstanieZadanie\OstanieZadanie\obj\Debug\OstanieZadanie.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\OstanieZadanie\OstanieZadanie\obj\Debug\OstanieZadanie.exe
+C:\Users\abelik\source\repos\OstanieZadanie\OstanieZadanie\obj\Debug\OstanieZadanie.pdb
