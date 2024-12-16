@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\KolosCzata2\PierwszeFibbonaci\bin\Debug\PierwszeFibbonaci.exe.config
+C:\Users\abelik\source\repos\KolosCzata2\PierwszeFibbonaci\bin\Debug\PierwszeFibbonaci.exe
+C:\Users\abelik\source\repos\KolosCzata2\PierwszeFibbonaci\bin\Debug\PierwszeFibbonaci.pdb
+C:\Users\abelik\source\repos\KolosCzata2\PierwszeFibbonaci\obj\Debug\PierwszeFibbonaci.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\KolosCzata2\PierwszeFibbonaci\obj\Debug\PierwszeFibbonaci.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\KolosCzata2\PierwszeFibbonaci\obj\Debug\PierwszeFibbonaci.exe
+C:\Users\abelik\source\repos\KolosCzata2\PierwszeFibbonaci\obj\Debug\PierwszeFibbonaci.pdb

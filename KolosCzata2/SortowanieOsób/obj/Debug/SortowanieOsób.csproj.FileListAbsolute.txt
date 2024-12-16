@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\KolosCzata2\SortowanieOsób\bin\Debug\SortowanieOsób.exe.config
+C:\Users\abelik\source\repos\KolosCzata2\SortowanieOsób\bin\Debug\SortowanieOsób.exe
+C:\Users\abelik\source\repos\KolosCzata2\SortowanieOsób\bin\Debug\SortowanieOsób.pdb
+C:\Users\abelik\source\repos\KolosCzata2\SortowanieOsób\obj\Debug\SortowanieOsób.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\KolosCzata2\SortowanieOsób\obj\Debug\SortowanieOsób.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\KolosCzata2\SortowanieOsób\obj\Debug\SortowanieOsób.exe
+C:\Users\abelik\source\repos\KolosCzata2\SortowanieOsób\obj\Debug\SortowanieOsób.pdb

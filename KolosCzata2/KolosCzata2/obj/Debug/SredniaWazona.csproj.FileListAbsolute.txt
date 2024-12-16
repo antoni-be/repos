@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\KolosCzata2\KolosCzata2\bin\Debug\KolosCzata2.exe.config
+C:\Users\abelik\source\repos\KolosCzata2\KolosCzata2\bin\Debug\KolosCzata2.exe
+C:\Users\abelik\source\repos\KolosCzata2\KolosCzata2\bin\Debug\KolosCzata2.pdb
+C:\Users\abelik\source\repos\KolosCzata2\KolosCzata2\obj\Debug\SredniaWazona.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\KolosCzata2\KolosCzata2\obj\Debug\SredniaWazona.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\KolosCzata2\KolosCzata2\obj\Debug\KolosCzata2.exe
+C:\Users\abelik\source\repos\KolosCzata2\KolosCzata2\obj\Debug\KolosCzata2.pdb
