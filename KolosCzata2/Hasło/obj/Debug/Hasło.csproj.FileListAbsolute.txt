@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\KolosCzata2\Hasło\bin\Debug\Hasło.exe.config
+C:\Users\abelik\source\repos\KolosCzata2\Hasło\bin\Debug\Hasło.exe
+C:\Users\abelik\source\repos\KolosCzata2\Hasło\bin\Debug\Hasło.pdb
+C:\Users\abelik\source\repos\KolosCzata2\Hasło\obj\Debug\Hasło.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\KolosCzata2\Hasło\obj\Debug\Hasło.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\KolosCzata2\Hasło\obj\Debug\Hasło.exe
+C:\Users\abelik\source\repos\KolosCzata2\Hasło\obj\Debug\Hasło.pdb

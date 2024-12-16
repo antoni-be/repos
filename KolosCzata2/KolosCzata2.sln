@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PierwszeFibbonaci", "Pierws
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortowanieOsób", "SortowanieOsób\SortowanieOsób.csproj", "{C02647FF-DABA-484A-96A9-E78B291A279A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaStudentow", "ListaStudentow\ListaStudentow.csproj", "{5398A555-8B3F-41D0-B18B-030504AD8D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hasło", "Hasło\Hasło.csproj", "{C98205A5-BAD8-4124-A3FC-28D055C4A61E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C02647FF-DABA-484A-96A9-E78B291A279A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C02647FF-DABA-484A-96A9-E78B291A279A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C02647FF-DABA-484A-96A9-E78B291A279A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5398A555-8B3F-41D0-B18B-030504AD8D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5398A555-8B3F-41D0-B18B-030504AD8D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5398A555-8B3F-41D0-B18B-030504AD8D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5398A555-8B3F-41D0-B18B-030504AD8D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98205A5-BAD8-4124-A3FC-28D055C4A61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98205A5-BAD8-4124-A3FC-28D055C4A61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98205A5-BAD8-4124-A3FC-28D055C4A61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98205A5-BAD8-4124-A3FC-28D055C4A61E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

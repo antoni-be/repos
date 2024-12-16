@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\KolosCzata2\ListaStudentow\bin\Debug\ListaStudentow.exe.config
+C:\Users\abelik\source\repos\KolosCzata2\ListaStudentow\bin\Debug\ListaStudentow.exe
+C:\Users\abelik\source\repos\KolosCzata2\ListaStudentow\bin\Debug\ListaStudentow.pdb
+C:\Users\abelik\source\repos\KolosCzata2\ListaStudentow\obj\Debug\ListaStudentow.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\KolosCzata2\ListaStudentow\obj\Debug\ListaStudentow.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\KolosCzata2\ListaStudentow\obj\Debug\ListaStudentow.exe
+C:\Users\abelik\source\repos\KolosCzata2\ListaStudentow\obj\Debug\ListaStudentow.pdb
