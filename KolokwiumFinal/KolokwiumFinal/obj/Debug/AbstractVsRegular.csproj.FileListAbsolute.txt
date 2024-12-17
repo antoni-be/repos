@@ -1,0 +1,7 @@
+C:\Users\abelik\source\repos\KolokwiumFinal\KolokwiumFinal\bin\Debug\KolokwiumFinal.exe.config
+C:\Users\abelik\source\repos\KolokwiumFinal\KolokwiumFinal\bin\Debug\KolokwiumFinal.exe
+C:\Users\abelik\source\repos\KolokwiumFinal\KolokwiumFinal\bin\Debug\KolokwiumFinal.pdb
+C:\Users\abelik\source\repos\KolokwiumFinal\KolokwiumFinal\obj\Debug\AbstractVsRegular.csproj.AssemblyReference.cache
+C:\Users\abelik\source\repos\KolokwiumFinal\KolokwiumFinal\obj\Debug\AbstractVsRegular.csproj.CoreCompileInputs.cache
+C:\Users\abelik\source\repos\KolokwiumFinal\KolokwiumFinal\obj\Debug\KolokwiumFinal.exe
+C:\Users\abelik\source\repos\KolokwiumFinal\KolokwiumFinal\obj\Debug\KolokwiumFinal.pdb
