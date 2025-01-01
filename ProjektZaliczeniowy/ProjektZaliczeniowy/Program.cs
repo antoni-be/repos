@@ -36,27 +36,41 @@ namespace ProjektZaliczeniowy
             Console.WriteLine($"Dostępne miejscowości:");
             foreach (var city in cities)
             {
-                Console.WriteLine($"{city}");
-            }
+                Console.Write($"{city}, ");
+            }1
 
-            List<Connection> KruskalMST = Kruskal(cities, connections);
+            string start = "";
+            string end = "";
 
-            Console.WriteLine("MST:");
-
-            foreach (Connection c in KruskalMST)
+            while(true)
             {
-                Console.WriteLine($"{c.City1}:{c.City2} {c.Distance}KM");
+                Console.Write("\nWpisz miejscowość startową:");
+                start = Console.ReadLine();
+                if(cities.Contains(start)) break;
+                Console.WriteLine("Miasto niedostępne, spróbuj ponownie!");
             }
 
-            List<string> ShortestPath = FindPathBFS(BuildGraph(KruskalMST), "Kraków", "Racibórz");
-            Console.WriteLine("Najkrótsza droga z krk do src to:");
-            Console.WriteLine();
-            foreach (string c in ShortestPath) Console.WriteLine($"{c}KM");
-            
-            
+            while(true)
+            {
+                Console.Write("Wpisz miejscowość końcową:");
+                end = Console.ReadLine();
+                if(cities.Contains(end)) break;
+                Console.WriteLine("Miasto niedostępne, spróbuj ponownie!");
+            }
+
+            var wynik = GetShortestPath(cities, connections, start, end);
+
+            Console.WriteLine($"Najkrótsza trasa z {start} do {end} to:");
+            foreach(string c in wynik.ShortestPath) Console.Write($"{c} ");
+
+            Console.WriteLine($"\nDługość trasy: {wynik.Distance} KM");
+
             Console.ReadKey();
         }
-        //funkcja rekurencyjna, powtarza się do momentu aż dojdzie do korzenia, po czym zwraca korzen
+
+
+
+        //funkcja rekurencyjna, powtarza się do momentu aż dojdzie do korzenia, po czym zwraca korzeń
         static string FindRoot(Dictionary<string, string> parent, string city)
         {
             if (parent[city] != city)
@@ -66,6 +80,7 @@ namespace ProjektZaliczeniowy
             return parent[city];
         }
 
+        //metoda wykorzystywana do budowania grafu
         static Dictionary<string, List<string>> BuildGraph(List<Connection> connections)
         {
             //tworzymy pusty slownik na którym będziemy budować nasz graf
@@ -117,7 +132,7 @@ namespace ProjektZaliczeniowy
             return mst;
         }
 
-        //wykorzystanie przeszukiwania wszerz w celu znalezienia trasy o najmniejszej liczbie połączeń (dystans został zminimalizowany przy Kruskalu)
+        //wykorzystanie przeszukiwania wszerz (BFS) w celu znalezienia trasy o najmniejszej liczbie połączeń (dystans został zminimalizowany przy Kruskalu)
         static List<string> FindPathBFS(Dictionary<string, List<string>> graph, string start, string end)
         {
             Queue<List<string>> queue = new Queue<List<string>>();
@@ -135,7 +150,7 @@ namespace ProjektZaliczeniowy
 
                 foreach (var city in graph[lastInPath])
                 {
-                    if (visited.Contains(city))
+                    if (!visited.Contains(city))
                     { 
                         var newPath = new List<string>(path) {city};
                         queue.Enqueue(newPath);
@@ -144,6 +159,42 @@ namespace ProjektZaliczeniowy
                 }
             }
             return null;
+        }
+        static int CalculatePathDistance(List<string> path, List<Connection> connections)
+        {
+            int distanceSum = 0;
+            for (int i = 0; i < path.Count - 1; i++)
+            {
+                string city1 = path[i];
+                string city2 = path[i+1];
+
+                Connection connection = connections.FirstOrDefault(c =>
+                    (c.City1 == city1 && c.City2 == city2) 
+                    ||
+                    (c.City1 == city2 && c.City2 == city1));
+
+                //jeśli znaleziono połączenie dodajemy odległość do sumy 
+                if (connection != null) distanceSum += connection.Distance;
+            }
+            return distanceSum;
+        }
+
+        static (List<string> ShortestPath, int Distance) GetShortestPath(List<string> cities, List<Connection> connections, string start, string end)
+        {
+            //wyznaczamy mst za pomocą kruskala
+            List<Connection> KruskalMST = Kruskal(cities, connections);
+
+            //budujemy graf z wyznaczonego mst
+            Dictionary<string, List<string>> Graph = BuildGraph(KruskalMST);
+
+            //wyznaczamy na grafie scieżkę z najkrótszą ilością połączeń za pomocą BFS
+            List<string> shortestPath = FindPathBFS(BuildGraph(KruskalMST), start, end);
+
+            //obliczamy długość wyznaczonej ścieżki 
+            int distance = CalculatePathDistance(shortestPath, KruskalMST);
+
+            //zwracamy wynik
+            return (shortestPath, distance);
         }
 
     }

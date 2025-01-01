@@ -5,3 +5,5 @@ C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\P
 C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.csproj.CoreCompileInputs.cache
 C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.exe
 C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.pdb
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.UIguess.resources
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.csproj.GenerateResource.cache
