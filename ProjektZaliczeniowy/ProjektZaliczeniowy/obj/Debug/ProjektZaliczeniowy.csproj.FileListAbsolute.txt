@@ -5,5 +5,12 @@ C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\P
 C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.csproj.CoreCompileInputs.cache
 C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.exe
 C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.pdb
-C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.UIguess.resources
-C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZaliczeniowy.csproj.GenerateResource.cache
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\EntityFramework.dll
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\System.Data.SQLite.dll
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\EntityFramework.xml
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\bin\Debug\System.Data.SQLite.xml
+C:\Users\abelik\source\repos\ProjektZaliczeniowy\ProjektZaliczeniowy\obj\Debug\ProjektZ.3C4DBB08.Up2Date

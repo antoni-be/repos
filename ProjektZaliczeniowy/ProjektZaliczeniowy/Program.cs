@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
+using System.Diagnostics;
 using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+
+
+//do oczytu bazy danych :))
+// https://inloop.github.io/sqlite-viewer/
 
 namespace ProjektZaliczeniowy
 {
@@ -26,6 +27,10 @@ namespace ProjektZaliczeniowy
              new Connection("Warszawa", "Wrocław", 430),
             };
 
+            var Saver = new Saver();
+            Saver.InitializeDatabase();
+
+
             List<string> cities = new List<string>();
             foreach (var connection in connections)
             {
@@ -37,7 +42,9 @@ namespace ProjektZaliczeniowy
             foreach (var city in cities)
             {
                 Console.Write($"{city}, ");
-            }1
+            }
+
+
 
             string start = "";
             string end = "";
@@ -59,13 +66,39 @@ namespace ProjektZaliczeniowy
             }
 
             var wynik = GetShortestPath(cities, connections, start, end);
+            string ShortestPathString = string.Join(", ", wynik.ShortestPath);
 
             Console.WriteLine($"Najkrótsza trasa z {start} do {end} to:");
             foreach(string c in wynik.ShortestPath) Console.Write($"{c} ");
 
+
             Console.WriteLine($"\nDługość trasy: {wynik.Distance} KM");
 
+            Saver.SaveShortestRoute(start, end, string.Join(", ", wynik.ShortestPath), wynik.Distance);
+            Console.WriteLine("\nPomyślnie zapisano wynik w bazie danych o nazwie results!");
+            Console.WriteLine($"Ścieżka do bazy danych: {AppDomain.CurrentDomain.BaseDirectory}");
+            Console.WriteLine("Skopiuj ścieżkę, a następnie");
+
+
+
+            Console.WriteLine("Wciśnij ENTER aby zamknąć konsolę i otworzyć bazę z wynikami");
             Console.ReadKey();
+            // Kod otwierający link
+            string url = "https://inloop.github.io/sqlite-viewer/";
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true 
+                });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Nie udało się otworzyć linku: {ex.Message}");
+            }
+
+
         }
 
 
@@ -126,7 +159,7 @@ namespace ProjektZaliczeniowy
                     mst.Add(connection);
                     parent[root1] = root2;
                 }
-                    
+                   
             }
 
             return mst;
